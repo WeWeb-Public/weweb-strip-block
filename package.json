@@ -1,0 +1,40 @@
+{
+    "name": "weweb-strip-block",
+    "version": "0.0.1",
+    "description": "Webpack plugin to strip blocks of code that's only intended for development purposes -- **BASED ON WEBPACK STRIP BLOCK** git://git@github.com/jballant/webpack-strip-block.git",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git://git@github.com/WeWeb-Public/weweb-strip-block"
+    },
+    "homepage": "https://github.com/WeWeb-Public/weweb-strip-block",
+    "keywords": [
+        "webpack",
+        "webpackloader",
+        "stripcode"
+    ],
+    "author": {
+        "name": "Weweb",
+        "email": "admin@weweb.io",
+        "url": "https://www.weweb.io"
+    },
+    "contributors": [
+        {
+            "name": "James Ballantine",
+            "email": "james@1stdibs.com",
+            "url": "http://www.1stdibs.com"
+        },
+        {
+            "name": "Alexander Wunschik",
+            "email": "mail@wunschik.it",
+            "url": "http://www.wunschik.it"
+        }
+    ],
+    "license": "MIT",
+    "peerDependencies": {
+        "webpack": ">=2.2.0"
+    },
+    "dependencies": {
+        "loader-utils": "^1.1.0"
+    }
+}
